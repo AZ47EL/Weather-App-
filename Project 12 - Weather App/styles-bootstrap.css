@@ -1,0 +1,56 @@
+body{
+    color: rgba(94, 94, 94, 0.829);
+    font-family: 'Franklin Gothic Medium';
+}
+
+.container{
+    margin: 5em auto 5em auto;
+}
+
+.card{
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.137);
+    letter-spacing: 0.12em;
+}
+
+.weather-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.details{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.temp {
+    margin-top: 5px;
+    font-size: 2em;
+}
+
+h1, form{
+    margin: 1m auto 0.5em auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+input{
+    padding: 4px;
+    display: block;
+    width: 95%;
+    margin: 0.7em auto;
+}
+
+h5{
+    margin-bottom: 30px;
+}
+
